@@ -1,0 +1,1 @@
+For a given chess piece on a chess board of dimenstion 8x8, tell  me all the positions taht it can take rom a given point
