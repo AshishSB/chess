@@ -8,7 +8,7 @@ RSpec.describe Rectangle do
   		end
   		it "is a product of length and breadth" do
   			rectangle=Rectangle.new(12,10)
-  			expect(rectangle.area).to eq(124)
+  			expect(rectangle.area).to eq(120)
   		end
 	end
 end

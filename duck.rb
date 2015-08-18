@@ -54,8 +54,3 @@ end
  donald_duck = Duck.new(fly_behaviour: NotFlying.new, quack_behaviour: Quaking.new)
  donald_duck.perform_fly
  donald_duck.perform_quack
-=begin
-king = Characters.new( assigning_position:Position.new(xposition,yposition),moving_right:Right_move.new, moving_left:Left_move.new,moving_forward:Forward_move.new,moving_backward:Backward_move.new,moving_diagonalr:Diagonal_move_right.new,moving_diagonall:Diagonal_move_left.new )
-king.perform_position
-king.perform_right
-king.perform_left=end
